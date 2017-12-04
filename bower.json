@@ -1,0 +1,35 @@
+{
+  "name": "QlikTemplate",
+  "main": "app/app.module.js",
+  "version": "0.0.1",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "app/vendor",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0",
+    "bootstrap-sass": "~3.3.4",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-utils": "~0.2.3",
+    "angular-bootstrap": "~0.13.0",
+    "angular": "~1.4.3",
+    "angular-animate": "~1.4.3"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
+    }
+  }
+}

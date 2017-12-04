@@ -1,0 +1,40 @@
+.qlik-sheet-nav{
+	list-style: none;
+	background-color: $primary-dark;
+	position:fixed;
+	padding:8px;
+	height: 100vh;
+	z-index: 999;
+
+	li{
+		display: block;
+	}
+
+	a{
+		display:inline-block;
+		padding: 8px 10px;
+		color: $alt-font-color;
+	}
+
+	.nav-toggle{
+		font-size:1.2em;
+		text-align:right;
+	}
+
+	.main-nav{
+		padding: 36px 42px;
+		height: 100vh;
+		overflow: auto;
+		display: none;
+	}
+
+	.fa-caret-right{
+		color: $primary-light;
+	}
+
+	&.open{
+		.main-nav{
+			display:block;
+		}
+	}
+}

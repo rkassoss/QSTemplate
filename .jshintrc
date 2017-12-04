@@ -1,0 +1,23 @@
+{
+	"camelcase": true,
+	"noarg": true,
+	"quotmark": true,
+	"undef": true,
+	"browser": true,
+	"curly": true,
+	"strict": true,
+	"indent": 4,
+	"globals": {
+		"jQuery": true,
+		"$": true,
+		"console": true,
+		"angular": true,
+		"module": true,
+		"require": true,
+		"it": true,
+		"expect": true,
+		"beforeEach": true,
+		"describe": true,
+		"moment": true
+	}
+}

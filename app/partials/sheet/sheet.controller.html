@@ -1,0 +1,8 @@
+<div class="sheet sheet-{{vm.sheetId}}">
+	<h2>{{vm.sheetName}}</h2>
+	<p>{{vm.sheetDescription}}</p>
+	<div id="CurrentSelections"></div>
+	<div class="qlik-object-wrapper">
+		<div ng-repeat="object in vm.sheetObjects" qlik-object="object"></div>
+	</div>
+</div>

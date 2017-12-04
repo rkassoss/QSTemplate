@@ -1,0 +1,20 @@
+{
+	"name": "QSTemplate",
+	"type": "mashup",
+	"platform":{
+		"desktop":{
+			"app": "Executive Dashboard.qvf",
+			"host": window.location.hostname,
+			"prefix": "/",
+			"port": "4848",
+			"isSecure": window.location.protocol === "https:"
+		},
+		"server": {
+			"app": "7ae9a5ec-c493-4df6-bb9e-be43d25b00b4",
+			"host": "usnyc-dcp2.qliktech.com",
+			"prefix": "/",
+			"port": "443",
+			"isSecure": true
+		}
+	}
+}

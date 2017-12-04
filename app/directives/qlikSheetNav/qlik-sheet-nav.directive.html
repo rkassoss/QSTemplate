@@ -1,0 +1,19 @@
+<ul class="qlik-sheet-nav" ng-class="{'open': vm.showNav}">
+	<li class="nav-toggle">
+		<a href="javascript:void(0)" ng-click="vm.showNav=!vm.showNav">
+			<i class="fa fa-bars"></i>
+		</a>
+	</li>
+	<li>
+		<ul class="main-nav">
+			<li>
+		    	<i class="fa fa-caret-right"></i>
+				<a ui-sref="home"  ng-click="vm.showNav=false">Home</a>
+			</li>
+		    <li ng-repeat="sheet in vm.sheets">
+		    	<i class="fa fa-caret-right"></i>
+		    	<a ui-sref="sheet({ id: sheet.qInfo.qId })" ng-click="vm.showNav=false">{{sheet.qData.title}}</a>
+		    </li>
+		</ul>
+    </li>
+</ul>
